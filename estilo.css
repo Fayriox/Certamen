@@ -1,0 +1,188 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+.fondo {
+
+    background-image: linear-gradient(rgba(241, 241, 244, 0.9),
+            rgba(20, 20, 20, 0.72)),
+        url("https://oyster.ignimgs.com/mediawiki/apis.ign.com/destiny-2/d/d7/Into_the_Light_Header.jpg");
+
+    background-repeat: no-repeat;
+ 
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+
+    background-position: center;
+    background-attachment: fixed;
+ 
+    overflow: auto;
+}
+
+.texto-fondo {
+    height: 350px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: black;
+}
+
+.Titulo {
+    font-size: 60px;
+    text-shadow: 0 0 10px rgb(231, 233, 236);
+}
+
+.Subtitulo {
+    font-size: 19px;
+    text-shadow: 0 0 5px rgb(0, 0, 0);
+    text-align: center;
+}
+
+.info {
+    background-color: rgb(88, 178, 219),;
+    color: rgb(132, 18, 18);
+
+}
+.contenedor {
+    
+    width: 100%;
+    padding: 80px 0;
+    margin: auto;
+}
+.titulo-info {
+    color: black;
+    font-size: 35px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.parrafo {
+    color: black;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.contenedor-card {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card {
+    box-shadow: 0 0 3px rgb(255, 174, 0);
+    width: 30%;
+    text-align: center;
+    border-radius: 15px;
+    background-color: rgb(193, 133, 164);
+}
+
+.card p {
+    font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    padding: 25px;
+}
+
+.galeria {
+    background-color: rgb(0, 0, 0);
+}
+
+.contenedor-galeria {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.contenedor-galeria img {
+    width: 30%;
+    margin-bottom: 30px;
+    box-shadow: 0 0 15px rgb(97, 86, 86);
+    cursor: pointer;
+    box-shadow: 0 0 10px white;
+    transform: scale(1.01);
+
+
+}
+
+.menu {
+    list-style-type: none;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    position: fixed;
+    overflow: auto;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    color: rgb(159, 144, 144);
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px 15px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.textarea-ancho {
+    width: 98%;
+    margin-bottom: 30px;
+}
+
+#hero {
+    min-height: 100hv;
+    position: relative
+
+}
+
+video {
+    position: cover;
+    top: 0;
+    left: 100;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+footer{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+}
+
+.txtinfo{
+    text-align: center;
+    color: black;
+}
+.txtti{
+    text-align: center;
+    width: 
+}
+
+.footxt{
+    color: white;
+    text-align: left;
+}
+
+.fondohoover{
+box-shadow: 0 0 10px black;
+transform: scale(1.1);
+transition: transform 0s;
+}
